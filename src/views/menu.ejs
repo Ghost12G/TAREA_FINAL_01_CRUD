@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %> | Restaurante
+    </title>
+    <meta name="description"
+        content="Descubre nuestro menú completo con platillos deliciosos preparados con ingredientes frescos.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/menu.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="/" class="logo">Restaurante</a>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/menu" class="active">Menú</a></li>
+                <li><a href="/promociones">Promociones</a></li>
+                <li><a href="/about">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Nuestro Menú</h1>
+        <p>Descubre nuestra selección de platillos preparados con los mejores ingredientes</p>
+    </section>
+
+    <!-- Menu Categories -->
+    <main class="menu-section">
+        <!-- Entradas -->
+        <div class="category">
+            <h2 class="category-title">🥗 Entradas</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600');">
+                        <span class="menu-card-badge">Popular</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Ensalada César</h3>
+                            <span class="menu-card-price">$12.99</span>
+                        </div>
+                        <p>Lechuga romana, crutones, parmesano y aderezo César casero</p>
+                        <div class="menu-card-footer">
+                            <button class="btn-order">Ordenar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600');">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Bruschetta</h3>
+                            <span class="menu-card-price">$9.99</span>
+                        </div>
+                        <p>Pan tostado con tomate fresco, albahaca y aceite de oliva</p>
+                        <div class="menu-card-footer">
+                            <button class="btn-order">Ordenar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Platos Fuertes -->
+        <div class="category">
+            <h2 class="category-title">🍖 Platos Fuertes</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600');">
+                        <span class="menu-card-badge">Chef's Pick</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Pizza Margarita</h3>
+                            <span class="menu-card-price">$18.99</span>
+                        </div>
+                        <p>Pizza artesanal con mozzarella, tomate fresco y albahaca</p>
+                        <div class="menu-card-footer">
+                            <button class="btn-order">Ordenar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600');">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Pasta Carbonara</h3>
+                            <span class="menu-card-price">$16.99</span>
+                        </div>
+                        <p>Pasta fresca con salsa carbonara, panceta y parmesano</p>
+                        <div class="menu-card-footer">
+                            <button class="btn-order">Ordenar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=600');">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Hamburguesa Premium</h3>
+                            <span class="menu-card-price">$14.99</span>
+                        </div>
+                        <p>Carne angus 200g, queso cheddar, bacon y papas fritas</p>
+                        <div class="menu-card-footer">
+                            <button class="btn-order">Ordenar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Postres -->
+        <div class="category">
+            <h2 class="category-title">🍰 Postres</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600');">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Tiramisú</h3>
+                            <span class="menu-card-price">$8.99</span>
+                        </div>
+                        <p>Clásico postre italiano con café y mascarpone</p>
+                        <div class="menu-card-footer">
+                            <button class="btn-order">Ordenar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600');">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Cheesecake</h3>
+                            <span class="menu-card-price">$7.99</span>
+                        </div>
+                        <p>Tarta de queso cremosa con salsa de frutos rojos</p>
+                        <div class="menu-card-footer">
+                            <button class="btn-order">Ordenar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bebidas -->
+        <div class="category">
+            <h2 class="category-title">🍹 Bebidas</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1544145945-f90425340c7e?w=600');">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Limonada Natural</h3>
+                            <span class="menu-card-price">$4.99</span>
+                        </div>
+                        <p>Limonada fresca hecha con limones orgánicos</p>
+                        <div class="menu-card-footer">
+                            <button class="btn-order">Ordenar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1610889556528-9a770e32642f?w=600');">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Café Espresso</h3>
+                            <span class="menu-card-price">$3.99</span>
+                        </div>
+                        <p>Café espresso italiano de grano seleccionado</p>
+                        <div class="menu-card-footer">
+                            <button class="btn-order">Ordenar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Restaurante. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

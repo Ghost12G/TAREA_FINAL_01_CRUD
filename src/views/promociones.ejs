@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %> | Restaurante
+    </title>
+    <meta name="description" content="Descubre nuestras promociones y ofertas especiales del mes.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/promociones.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+
+   
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="/" class="logo">Restaurante</a>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/menu">Menú</a></li>
+                <li><a href="/promociones" class="active">Promociones</a></li>
+                <li><a href="/about">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Promociones Especiales</h1>
+        <p>Aprovecha nuestras ofertas exclusivas por tiempo limitado</p>
+    </section>
+
+    <!-- Promotions Grid -->
+    <main class="promotions-section">
+        <div class="promo-grid">
+            <!-- Featured Promo -->
+            <div class="promo-card featured-promo">
+                <div class="promo-badge">¡NUEVO!</div>
+                <div class="promo-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800');">
+                </div>
+                <div class="promo-content">
+                    <h2 class="promo-title">🎉 Menú Ejecutivo Premium</h2>
+                    <p class="promo-description">
+                        Disfruta de nuestro exclusivo menú ejecutivo: entrada, plato fuerte, postre y bebida por un
+                        precio especial. ¡La mejor opción para tu almuerzo!
+                    </p>
+                    <div class="promo-validity">
+                        ⏰ Válido de Lunes a Viernes | 12:00 PM - 3:00 PM
+                    </div>
+                    <button class="btn-claim">Reservar Ahora - $19.99</button>
+                </div>
+            </div>
+
+            <!-- Promo 2 -->
+            <div class="promo-card">
+                <div class="promo-badge">-30%</div>
+                <div class="promo-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600');">
+                </div>
+                <div class="promo-content">
+                    <h2 class="promo-title">🍕 2x1 en Pizzas</h2>
+                    <p class="promo-description">
+                        Lleva 2 pizzas familiares al precio de 1. Válido para nuestras pizzas clásicas de pepperoni,
+                        hawaiana y margarita.
+                    </p>
+                    <div class="promo-validity">
+                        ⏰ Todos los Martes | Todo el día
+                    </div>
+                    <button class="btn-claim">Ordenar Ahora</button>
+                </div>
+            </div>
+
+            <!-- Promo 3 -->
+            <div class="promo-card">
+                <div class="promo-badge">-25%</div>
+                <div class="promo-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1544025162-d76694265947?w=600');">
+                </div>
+                <div class="promo-content">
+                    <h2 class="promo-title">🍽️ Cena Romántica</h2>
+                    <p class="promo-description">
+                        Paquete especial para 2 personas: 2 entradas, 2 platos fuertes, 2 postres, botella de vino y
+                        vela aromática incluida.
+                    </p>
+                    <div class="promo-validity">
+                        ⏰ Viernes y Sábados | 7:00 PM - 11:00 PM
+                    </div>
+                    <button class="btn-claim">Reservar Mesa - $65.00</button>
+                </div>
+            </div>
+
+            <!-- Promo 4 -->
+            <div class="promo-card">
+                <div class="promo-badge">GRATIS</div>
+                <div class="promo-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600');">
+                </div>
+                <div class="promo-content">
+                    <h2 class="promo-title">🎂 Postre de Cumpleaños</h2>
+                    <p class="promo-description">
+                        ¡Celebra tu cumpleaños con nosotros! Recibe un postre especial totalmente GRATIS mostrando tu
+                        documento de identidad.
+                    </p>
+                    <div class="promo-validity">
+                        ⏰ Durante todo tu mes de cumpleaños
+                    </div>
+                    <button class="btn-claim">Más Información</button>
+                </div>
+            </div>
+
+            <!-- Promo 5 -->
+            <div class="promo-card">
+                <div class="promo-badge">-20%</div>
+                <div class="promo-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=600');">
+                </div>
+                <div class="promo-content">
+                    <h2 class="promo-title">🍔 Happy Hour</h2>
+                    <p class="promo-description">
+                        20% de descuento en hamburguesas gourmet y bebidas seleccionadas durante nuestro happy hour. ¡No
+                        te lo pierdas!
+                    </p>
+                    <div class="promo-validity">
+                        ⏰ Lunes a Jueves | 5:00 PM - 7:00 PM
+                    </div>
+                    <button class="btn-claim">Ver Menú Happy Hour</button>
+                </div>
+            </div>
+
+            <!-- Promo 6 -->
+            <div class="promo-card">
+                <div class="promo-badge">NUEVO</div>
+                <div class="promo-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600');">
+                </div>
+                <div class="promo-content">
+                    <h2 class="promo-title">🍝 Combo Familiar</h2>
+                    <p class="promo-description">
+                        Pasta para 4 personas + ensalada grande + pan de ajo + 1.5L de bebida. ¡Perfecto para compartir
+                        en familia!
+                    </p>
+                    <div class="promo-validity">
+                        ⏰ Domingos | Todo el día
+                    </div>
+                    <button class="btn-claim">Ordenar Combo - $45.00</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Restaurante. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
