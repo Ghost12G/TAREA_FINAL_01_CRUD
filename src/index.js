@@ -2,11 +2,11 @@ import "dotenv/config"; // Cargar variables de entorno
 import express from "express";
 import path from "path";
 import { fileURLToPath } from "url";
-import { conectarDB } from "./config/database.js";
-import productosRoutes from "./routes/productosRoutes.js";
-import authRoutes from "./routes/authRouter.js";
 import pagesRouter from "./routes/pagesRouter.js";
 import pedidosRoutes from "./routes/pedidosRouter.js";
+import productosRoutes from "./routes/productosRoutes.js";
+import { conectarDB } from "./config/database.js";
+
 
 
 // Inicializar Express
@@ -30,8 +30,9 @@ app.use(express.static(path.join(__dirname, "public")));
 // Rutas
 app.use("/", pagesRouter);
 app.use("/productos", productosRoutes);
-app.use("/auth", authRoutes);
 app.use("/pedidos", pedidosRoutes);
+
+
 
 // Puerto
 const PORT = process.env.PORT || 3000;
